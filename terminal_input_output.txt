@@ -1,0 +1,82 @@
+===== SYMBOL TABLE MANAGEMENT =====
+1. Insert Symbol
+2. Search Symbol
+3. Update Symbol
+4. Delete Symbol
+5. Display Symbol Table
+6. Exit
+Enter your choice: 1
+
+INSERT FIRST SYMBOL
+
+Enter identifier name: age
+Enter data type: int
+Enter scope (global/local): global
+Enter size in bytes: 4
+Enter declaration line: 5
+Symbol inserted successfully!
+
+INSERT SECOND SYMBOL
+
+Enter your choice: 1
+Enter identifier name: salary
+Enter data type: float
+Enter scope (global/local): local
+Enter size in bytes: 4
+Enter declaration line: 8
+Symbol inserted successfully!
+
+INSERT THIRD SYMBOL
+
+Enter your choice: 1
+Enter identifier name: grade
+Enter data type: char
+Enter scope (global/local): global
+Enter size in bytes: 1
+Enter declaration line: 10
+Symbol inserted successfully!
+
+SEARCH AN IDENTIFIER
+
+Enter your choice: 2
+Enter identifier to search: salary
+
+Symbol Found!
+Name  : salary
+Type  : float
+Scope : local
+Size  : 4 bytes
+Line  : 8
+
+UPDATE AN IDENTIFIER
+
+Enter your choice: 3
+Enter identifier to update: salary
+Enter new data type: double
+Enter new scope: local
+Enter new size: 8
+Enter new declaration line: 12
+Symbol updated successfully!
+
+DELETE AN IDENTIFIER
+
+Enter your choice: 4
+Enter identifier to delete: grade
+Symbol deleted successfully!
+
+DISPLAY FINAL SYMBOL TABLE
+
+Enter your choice: 5
+
+========== SYMBOL TABLE ==========
+
+Name            Type         Scope        Size     Line
+age             int          global       4        5
+salary          double       local        8        12
+
+=================================
+
+EXIT PROGRAM
+
+Enter your choice: 6
+Program terminated!

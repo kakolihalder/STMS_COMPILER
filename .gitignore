@@ -1,0 +1,32 @@
+# =====================================
+# Symbol Table Management System (STMS)
+# Created by: Kakoli Halder
+# Project: Compiler Design PBL
+# =====================================
+
+# Compiled executable files
+*.exe
+*.out
+*.o
+*.obj
+*.app
+
+# Debug files
+*.pdb
+*.ilk
+*.dSYM/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
