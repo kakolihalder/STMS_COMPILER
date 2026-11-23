@@ -4,8 +4,6 @@
 # Project: Compiler Design PBL
 # =====================================
 
-# Symbol Table Management System (STMS)
-
 A terminal-based **Symbol Table Management System** developed using C as a Project-Based Learning (PBL) project for the subject **Compiler Design**.
 
 This project demonstrates how a compiler manages identifiers using a Hash Table and Linked List data structure.
@@ -41,8 +39,10 @@ This project provides a simple, menu-driven terminal interface to perform variou
 STMS_COMPILER/
 │
 ├── SymbolTableManager.c
+├── terminal_input_output.txt
 ├── README.md
 └── .gitignore
+
 ```
 
 ## Prerequisites
